@@ -2,20 +2,31 @@
 <html>
 <head>
 	<title>Color Game</title>
-	<link rel="stylesheet" type="text/css" href="colorguessing.css">
+
+	<!-- Latest compiled and minified CSS -->
 </head>
 <body>
-<div>THE GREAT GUESSING GAME - <span id='question'>RGB(211,206,13)</span></div>
-<!-- White Space -->
-<p><p></p></p>
-<div class="response"></div>
-	<div class="choices" id='choice1'>color1</div>
-	<div class="choices" id='choice2'>color2</div>
-	<div class="choices" id='choice3'>color3</div>
-	<div class="choices" id='choice4'>color4</div>
-	<div class="choices" id='choice5'>color5</div>
-	<div class="choices" id='choice6'>color6</div>
-</div>
-<script type="text/javascript" src='colorguessing.js'></script>
-</body>
+	<container>
+	
+	<div class="jumbotron"><h1>THE GREAT GUESSING GAME<div id='question'>RGB(211,206,13)</div></h1></div>
+	</container>
+
+	<div class="row">
+	<p class="newgame">NewGame<p></p></p>
+	<div class="response"></div>
+		<div class="col-lg-4"><div class="choices" id='choice1'>color1</div></div>
+		<div class="col-lg-4"><div class="choices" id='choice2'>color2</div></div>
+		<div class="col-lg-4"><div class="choices" id='choice3'>color3</div></div>
+		<div class="col-lg-4"><div class="choices" id='choice4'>color4</div></div>
+		<div class="col-lg-4"><div class="choices" id='choice5'>color5</div></div>
+		<div class="col-lg-4"><div class="choices" id='choice6'>color6</div></div>
+	</div>
+	</div>
+	<script type="text/javascript" src='colorguessing.js'></script>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="colorguessing.css">
+	<script type="text/javascript" src='colorguessing.js'></script>
 </html>

@@ -1,7 +1,35 @@
 .choices {
-	border: 2px solid red;
-	float: left;
-	margin: 20px;
-	width:50px;
-	height:50px;
+	height: 200px;
+	margin-left: .1%;
+	margin-right:.1%;
+	/*margin-bottom:7px;*/
+	border: 5px solid grey;
+}
+
+.incorrectanswer {
+			background-color:purple;
+			border:0px;
+
+}
+
+.jumbotron {
+	text-align:center;
+	background-color:darkblue;
+	color:lightgrey;
+	
+}
+
+#question {
+	font-weight:bold;
+}
+
+.row {
+	padding: 0% 25% 0% 25%;
+	margin:0 auto;
+
+}
+
+.col-lg-4 {
+	/*margin:5px;*/
+	padding:7px;
 }
